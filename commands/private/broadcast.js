@@ -14,7 +14,7 @@ module.exports = {
     let isMed = type === "imageMessage" || type === "videoMessage" || type === "documentMessage"
     let isQMed = quoted?.message?.imageMessage || quoted?.message?.videoMessage || quoted?.message?.documentMessage
     let isQText = quoted?.message?.conversation || quoted?.message?.extendedTextMessage
-    
+
     let tipe;
     if (quoted && quoted?.type_msg === "documentMessage") {
       if (/image/.test(quoted?.message?.documentMessage?.mimetype)) {

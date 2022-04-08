@@ -10,7 +10,7 @@ exports.connect = async () => {
   // Custom browser
   conn.browserDescription = ['Windows', 'Desktop', '3.0'];
   // Version
-  conn.version = [2, 2208, 7];
+  conn.version = [2, 2210, 9];
 
   conn.on('open', () => {
     fs.writeFileSync('./Midnight.json', JSON.stringify(conn.base64EncodedAuthInfo(), null, '\t'));
