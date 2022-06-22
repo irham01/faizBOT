@@ -1,15 +1,15 @@
 {
     "botName": "SMH BOT",
     "owner": [
-        "Your_Phonenumber@s.whatsapp.net"
+        "6285601517617@s.whatsapp.net"
     ],
     "openWeather": "OpenWeather_APIkey",
     "igCookie": "Instagram_Cookie",
-    "session": "session-md.json",
+    "session": "session.json",
     "user_db": "users-db.json",
     "chat_store": "baileys-store.json",
     "timezone": "Asia/Jakarta",
-    "footer": "Kaguya PublicBot • FaizBastomi",
+    "footer": "Kanna PublicBot • Irham",
     "tier": {
         "drakath": 200,
         "nulgath": 500,
